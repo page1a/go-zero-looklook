@@ -211,7 +211,7 @@ services:
   #redis容器 - Redis container
   redis:
     image: redis:6.2.5
-    container_name: redis
+    container_name: redis-looklook
     ports:
       - 36379:6379
     environment:
